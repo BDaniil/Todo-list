@@ -1,0 +1,40 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    // let editor format using prettier for all other files
+    "editor.formatOnSave": true,
+    // disable editor formatting, so eslint can handle it
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1500,
+    //"typescript.tsdk": "./node_modules/typescript/lib",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    //"typescript.tsserver.log": "normal",
+    //"typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "workbench.colorCustomizations": {},
+    "prettier.configPath": ".prettierrc",
+    "eslint.alwaysShowStatus": true,
+    "eslint.enable": true,
+    "eslint.validate": ["javascript", "javascriptreact", "svelte", "typescript"]
+}
