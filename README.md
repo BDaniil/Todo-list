@@ -1,10 +1,10 @@
-# create-svelte
+# ToDo List
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Todo list using Svelte with TypeScript and Tailwind. Todo list includes two lists with uncompleted and completed tasks. While task is in progress it can be moved to completed tasks list. There is a button that clears all tasks and uncompleted tasks counter. Buttons for deleting each of the tasks and moving to another list appear with hover animation. To indicate that a task is in progress, you need to click on it. 
+
+![This is an image](https://github.com/BDaniil/Todo-list/blob/master/Todo%20list%20preview/Todo%20list%20preview%201.jpg?raw=true)
 
 ## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
 # create a new project in the current directory
